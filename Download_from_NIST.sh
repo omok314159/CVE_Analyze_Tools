@@ -13,6 +13,6 @@ fi
 
 cat $LISTDIR/CVEs_list |while read CVE_NUM
 do
-	wget -P wget https://nvd.nist.gov/vuln/detail/$CVE_NUM
-	#echo "wget https://nvd.nist.gov/vuln/detail/$CVE_NUM"
+	#wget -P wget https://nvd.nist.gov/vuln/detail/$CVE_NUM
+	echo "wget https://nvd.nist.gov/vuln/detail/$CVE_NUM"
 done
